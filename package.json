@@ -1,5 +1,5 @@
 {
-  "name": "reactteast",
+  "name": "react-boiler",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,9 +11,13 @@
     "react-dom": "^0.14.0",
     "watchify": "^3.4.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-react": "^3.1.0"
+  },
   "scripts": {
-    "watch": "watchify -t babelify ./src/app.js -o ./dist/bundle.js -v"
+    "watch": "watchify -t babelify ./src/app.js -o ./dist/app.js -v"
   },
   "author": "",
   "license": "ISC"
